@@ -1,0 +1,146 @@
+
+a {
+	color: #fdfdfd;
+	padding: 8px 0;
+	text-decoration: none;
+}
+body {
+	font-family: 'Open Sans', Helvetica, Arial;
+	font-size: 16px;
+	margin: 0;
+}
+h1 {
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+header {
+	background: #222;
+	padding: 10px 0;
+	width: 100%;
+}
+li {
+	color: #fff;
+	list-style: none;
+	padding: 12px;
+}
+li:hover {
+	background: rgba(0,0,0,.25);
+}
+li a {
+	display: inline;
+}
+nav {
+	background: #08c;
+	text-align: center;
+	width: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.icon-reorder {
+	cursor: pointer;
+	font-family: 'icons';
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-reorder:before {
+	content: "\e600";
+}
+
+/* Aquí viene la magia */
+
+/* En resoluciones mayores a 450px */
+@media screen and (min-width: 450px) {
+	a {
+		display: none;
+	}
+	li {
+		display: inline-block;
+	}
+	ul {
+		display: block !important;
+	}
+}
+
+/* En resoluciones menores a 450px */
+@media screen and (max-width: 449px){
+	a {
+		display: block;
+	}
+	ul {
+		display: none;
+	}
+}
+
+.one{
+    background-color: rgba(0, 136, 204, 0.216);
+}
+
+.ini{
+    width: 600px;
+    height: 300px;
+}
+
+
+.letra{
+    font-family: cursive;
+}
+
+.two{
+    background-color: rgba(0, 204, 61, 0.337);
+}
+
+.juan{
+    color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(127, 168, 255, 0.685);
+    
+}
+
+.banano{
+    font-family: cursive;
+}
+
+
+.platano{
+    border-radius: 30px;
+    width: 700px;
+}
+
+.mazorca{
+    color: black;
+    background-color: #08c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fideo{
+    background-color: rgba(132, 51, 145, 0.511);
+}
+
+.migue{
+    border-radius: 40px;
+    width: 600px;
+    height: 300px;
+}
+
+
+.toni{
+    background-color: aquamarine;
+}
+
+.trees{
+    color: rgba(0, 0, 0, 0.364);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cb1616c1;
+}
